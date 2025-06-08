@@ -4,22 +4,7 @@ const BirthdayMessage: React.FC = () => {
   const [visible, setVisible] = useState(false);
   const [typedMessage, setTypedMessage] = useState('');
   
-  const fullMessage = `Happy Birthday Vishwaa! 💫💜
-
-You may not be my sister by blood,
-but you're definitely my sister by heart and that’s even more special (plus fewer RRs and ghar ki chugliya, more fun, right? 😎).
-From being my best friend to being my strongest support,
-you've filled my life with laughter, love, and unforgettable memories
-and some highly questionable decisions that we'll pretend never happened 😂. On your special day, I just want to say:
-Thank you for being you kind, caring, strong, and always real.
-Even when you’re being a drama queen or crying for the future every 2nd day 💀
-May this year bring you endless joy, success, and all the happiness you truly deserve
-plus unlimited choco 🍫, no responsibilities, and zero "are you free to talk?" texts 😅🎂
-Keep glowing, keep growing, and always know that you're loved beyond measure.
-I'll always be here for you, no matter what...
-Even when you call me just to rant about something that happened in your dream 😂💕
-Happy Birthday, my soul sister! 🥳🎂💖
-Now go slay your day like it’s a Bollywood movie finale ✨🎬`;
+  const fullMessage = `msg`;
 
   useEffect(() => {
     setVisible(true);
